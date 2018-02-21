@@ -15,7 +15,7 @@ app.use(methodOverride("_method"));
 
 // ===========Setting up our mongodb database==========
 
-mongoose.connect("mongodb://localhost/restful_blog_app");
+mongoose.connect("mongodb+srv://admin:0dRxcPd1O5OIVAyv@restful-tpfi1.mongodb.net/test?retryWrites=true&w=majority");
 
 // Schema definition
 var Schema = mongoose.Schema;
